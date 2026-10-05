@@ -67,7 +67,7 @@ def load_train_triplets(utils_dir):
 
 def load_test_triplets(utils_dir):
     """Dense test triplets in canonical form (the CSV stores an odd-one-out id)."""
-    df = pd.read_csv(os.path.join(utils_dir, 'human_test_triplets.csv'))
+    df = pd.read_csv(os.path.join(utils_dir, 'test_triplets.csv'))
     cols = ['stim1_name', 'stim2_name', 'stim3_name', 'choice']
     return odd_one_out_to_pair_idx(drop_degenerate(df[cols].to_numpy().astype(int)))
 

@@ -66,13 +66,13 @@ print("\n" + "=" * 50)
 print("LOAD TRIPLET DATA")
 print("=" * 50)
 
-# train_triplets.npy / test_triplets.npy are the 90/10 train/validation split
+# train_triplets.npy / val_triplets.npy are the 90/10 train/validation split
 # of the 49,484 training-experiment triplets. Column 3 is already
 # chosen_pair_idx (0 -> ij, 1 -> ik, 2 -> jk), NOT the odd-one-out id, so it is
 # used as-is -- routing it through load_and_process_triplet_data would read it
 # as a stimulus id and discard almost every triplet.
 train_npy = os.path.join(UTILS_DIR, 'train_triplets.npy')
-val_npy = os.path.join(UTILS_DIR, 'test_triplets.npy')
+val_npy = os.path.join(UTILS_DIR, 'val_triplets.npy')
 train_triplets = [tuple(int(v) for v in row) for row in np.load(train_npy)]
 val_triplets = [tuple(int(v) for v in row) for row in np.load(val_npy)]
 for name, trips in (('train', train_triplets), ('val', val_triplets)):

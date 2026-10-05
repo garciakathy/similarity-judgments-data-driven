@@ -255,7 +255,7 @@ def _load_triplet(npy_path, parquet_path):
 def _load_test_triplets():
     """Load the separately-collected dense test triplets (50 test videos only)."""
     cols = ['stim1_name', 'stim2_name', 'stim3_name', 'choice']
-    csv_path = os.path.join(UTILS_DIR, 'human_test_triplets.csv')
+    csv_path = os.path.join(UTILS_DIR, 'test_triplets.csv')
     if os.path.exists(csv_path):
         print(f"Found: {csv_path}")
         df = pd.read_csv(csv_path)
@@ -297,7 +297,7 @@ def main():
         print(f"\nERROR: No triplet files found for {requested}!")
         print(f"Expected files in {UTILS_DIR}:")
         print("  - train_triplets.npy or train_triplets.parquet")
-        print("  - test_triplets.npy or test_triplets.parquet")
+        print("  - test_triplets.csv")
         print("  - all_triplets.npy or all_triplets.parquet")
         return
 

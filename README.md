@@ -41,9 +41,9 @@ All stimulus and behavioral data are in `data/utils/`.
   these are third-party images from the Moments in Time dataset.
 - **Training triplets.** `train_triplets.npy`, 44,535 odd-one-out judgments over all
   250 videos, with columns `i, j, k, chosen_pair_idx`. The last column names the
-  *similar* pair: 0 → (i, j), 1 → (i, k), 2 → (j, k). `test_triplets.npy` (4,949) is
+  *similar* pair: 0 → (i, j), 1 → (i, k), 2 → (j, k). `val_triplets.npy` (4,949) is
   the validation split used for early stopping during training.
-- **Test triplets.** `human_test_triplets.csv`, 3,739 new judgments on the 50 test
+- **Test triplets.** `test_triplets.csv`, 3,739 new judgments on the 50 test
   videos only, collected separately and never used for training. Here `choice` is
   the *odd-one-out's* stimulus id, the opposite convention to the training file;
   `helpers/reliability.py` loads both into the same format.
