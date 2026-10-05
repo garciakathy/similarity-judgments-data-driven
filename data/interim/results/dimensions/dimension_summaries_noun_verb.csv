@@ -1,0 +1,21 @@
+Dim,Label,Side,Noun 1,Noun 2,Noun 3,Noun 4,Noun 5,Noun Mass%,Verb 1,Verb 2,Verb 3,Verb 4,Verb 5,Verb Mass%,JS,Entropy
+1,Adult conversation vs. infant distress,top,man (10.3%),car (6.3%),person (3.2%),something (2.0%),hand (1.6%),23.3,talk (8.7%),sit (2.0%),hold (0.8%),work (0.4%),,11.9,0.589,0.889
+1,Adult conversation vs. infant distress,bottom,baby (12.3%),man (4.7%),bed (4.3%),teeth (2.5%),father (2.2%),26.0,cry (3.6%),play (2.9%),sit (2.5%),laugh (2.5%),lie (2.5%),14.1,0.477,0.887
+0,Infant caregiving vs. adult manual activity,top,baby (12.3%),teeth (5.2%),mother (3.9%),child (3.6%),water (2.9%),27.9,feed (5.8%),brush (4.5%),eat (1.9%),laugh (1.3%),smile (1.3%),14.9,0.518,0.869
+0,Infant caregiving vs. adult manual activity,bottom,man (7.6%),woman (3.2%),boy (3.2%),wood (2.5%),person (2.2%),18.7,stand (2.5%),look (1.8%),dance (1.8%),play (1.8%),talk (1.4%),9.4,0.541,0.929
+17,Physical action vs. mixed social,top,boy (5.6%),man (4.6%),woman (3.3%),another (3.0%),ball (2.3%),18.7,kick (3.6%),play (1.6%),sit (1.0%),stand (1.0%),run (1.0%),8.2,0.578,0.923
+17,Physical action vs. mixed social,bottom,baby (7.8%),man (4.7%),car (2.7%),person (2.7%),woman (2.7%),20.8,play (3.5%),talk (2.7%),eat (2.7%),smile (1.2%),look (1.2%),11.4,0.506,0.918
+13,Outdoor recreation vs. infant distress,top,fish (8.5%),man (7.1%),dog (2.5%),person (1.8%),woman (1.8%),21.7,hold (1.8%),walk (1.4%),look (1.4%),stand (1.1%),talk (0.7%),6.4,0.581,0.918
+13,Outdoor recreation vs. infant distress,bottom,baby (8.4%),girl (6.6%),child (2.6%),boy (2.2%),hair (2.2%),22.0,play (5.5%),cry (3.7%),brush (2.2%),hold (1.5%),smile (1.1%),13.9,0.475,0.904
+2,Collaborative play/performance vs. infants,top,drum (7.3%),man (6.4%),person (3.3%),another (1.5%),girl (1.2%),19.8,play (14.9%),sing (5.2%),sit (2.4%),stand (0.6%),look (0.6%),23.7,0.573,0.841
+2,Collaborative play/performance vs. infants,bottom,baby (16.0%),man (3.3%),toy (2.5%),child (1.6%),woman (1.2%),24.7,cry (9.9%),lie (3.7%),hold (2.9%),laugh (2.1%),look (2.1%),20.6,0.508,0.855
+9,Babies crying,top,baby (21.3%),side (3.6%),bed (3.2%),camera (1.8%),leg (0.9%),30.8,cry (15.8%),lie (7.7%),sit (1.8%),kick (0.9%),look (0.9%),27.1,0.628,0.779
+9,Babies crying,bottom,man (8.8%),person (3.7%),woman (3.3%),car (2.2%),hair (1.8%),19.9,use (2.2%),sit (1.5%),stand (1.1%),look (1.1%),brush (0.7%),6.6,0.546,0.927
+6,Indoor domestic vs. group play,top,woman (8.6%),man (5.5%),cook (5.5%),food (4.7%),kitchen (4.7%),29.0,eat (3.9%),talk (2.0%),look (1.6%),hold (1.6%),stand (1.2%),10.2,0.565,0.895
+6,Indoor domestic vs. group play,bottom,man (6.6%),baby (6.6%),child (2.9%),side (2.6%),drum (1.8%),20.5,cry (4.8%),play (3.3%),stand (1.8%),dance (1.8%),hold (1.5%),13.2,0.477,0.913
+4,Mother-infant play vs. adult social,top,baby (13.5%),man (6.6%),woman (4.7%),bed (3.6%),mother (2.6%),31.0,play (6.9%),laugh (2.9%),hold (2.6%),cry (1.8%),lie (1.5%),15.7,0.466,0.863
+4,Mother-infant play vs. adult social,bottom,man (7.1%),woman (5.9%),person (3.7%),another (1.9%),room (1.9%),20.4,look (1.9%),play (1.9%),stand (1.5%),move (1.5%),talk (1.1%),7.8,0.527,0.928
+11,Mixed / low interpretability,top,baby (6.0%),child (4.4%),water (3.5%),woman (2.5%),man (2.2%),18.7,sit (3.2%),play (1.9%),brush (1.6%),hold (1.0%),feed (1.0%),8.6,0.458,0.92
+11,Mixed / low interpretability,bottom,woman (5.1%),man (4.7%),girl (3.3%),baby (3.3%),person (2.2%),18.5,stand (1.8%),look (1.8%),cry (1.8%),play (1.4%),hold (1.1%),8.0,0.485,0.937
+30,Father-child bonding vs. peer social,top,baby (6.1%),child (5.4%),man (3.9%),father (2.9%),girl (2.5%),20.8,play (4.3%),hold (1.8%),sit (1.4%),dance (1.4%),cry (1.1%),10.0,0.462,0.917
+30,Father-child bonding vs. peer social,bottom,girl (6.1%),child (3.7%),woman (3.3%),drum (3.3%),boy (2.9%),19.3,play (5.7%),brush (3.3%),dance (2.0%),look (1.2%),cry (1.2%),13.5,0.447,0.92

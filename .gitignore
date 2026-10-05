@@ -1,0 +1,61 @@
+data/utils/response_data.csv.gz
+data/interim.results/searchlight/*.gz
+data/raw/fmri/anatomy/**/*.h5
+
+# Large files (>50 MB) -- kept on disk, out of the published repo
+data/interim/features/*.pth.tar
+data/interim/results/neural/encoding/*.pkl.gz
+data/interim/results/searchlight/sl_beh_*_surface.pdf
+data/interim/results/searchlight/sl_beh_*_surface_action_10fold.pdf
+data/interim/results/searchlight/sl_dim[0-9]_surface.pdf
+data/interim/results/searchlight/sl_dim[0-9][0-9]_surface.pdf
+data/interim/results/searchlight/wta_consistency_cache*.npz
+data/raw/fmri/fmri_betas/*_desc-train-fracridge_data.nii.gz
+data/interim/results/searchlight/sl_beh_winner_take_all_action_10fold.pdf
+data/interim/results/searchlight/sl_combined_surface_all.pdf
+data/interim/results/searchlight/sl_combined_surface_all_10fold.pdf
+data/interim/results/searchlight/sl_combined_surface_sub4.pdf
+data/interim/results/searchlight/sl_combined_vs_behavioral_all_action_10fold_sub1.pdf
+data/interim/results/searchlight/sl_combined_vs_behavioral_all_action_10fold_sub3.pdf
+data/interim/results/searchlight/sl_combined_vs_behavioral_all_action_10fold_sub4.pdf
+data/interim/results/searchlight/sl_combined_vs_behavioral_all_groupedcv_sub2.pdf
+data/interim/results/searchlight/sl_combined_vs_behavioral_all_sub1.pdf
+data/interim/results/searchlight/sl_combined_vs_behavioral_all_sub2.pdf
+data/interim/results/searchlight/sl_combined_vs_behavioral_all_sub3.pdf
+data/interim/results/searchlight/sl_combined_vs_behavioral_all_sub4.pdf
+data/interim/results/searchlight/sl_combined_vs_behavioral_dim11_behaction_sub2.pdf
+data/interim/results/searchlight/sl_combined_vs_behavioral_dim11_sub1.pdf
+data/interim/results/searchlight/sl_combined_vs_behavioral_dim11_sub2.pdf
+data/interim/results/searchlight/sl_combined_vs_behavioral_dim11_sub3.pdf
+data/interim/results/searchlight/sl_combined_vs_behavioral_dim11_sub4.pdf
+data/interim/results/searchlight/sl_combined_vs_behavioral_dim12_action_10fold_sub2.pdf
+data/interim/results/searchlight/sl_combined_vs_behavioral_dim12_behaction_sub2.pdf
+data/interim/results/searchlight/sl_combined_vs_behavioral_dim12_sub2.pdf
+data/interim/results/searchlight/sl_diff_dim_minus_beh_all_sub4.pdf
+data/interim/results/searchlight/sl_diff_dim_minus_beh_sub4.pdf
+data/interim/results/searchlight/sl_wta_combined_vs_behavioral_all_sub1.pdf
+data/interim/results/searchlight/sl_wta_combined_vs_behavioral_all_sub2.pdf
+data/interim/results/searchlight/sl_wta_combined_vs_behavioral_all_sub3.pdf
+data/interim/results/searchlight/sl_wta_combined_vs_behavioral_sub1.pdf
+data/interim/results/searchlight/sl_wta_combined_vs_behavioral_sub2.pdf
+data/interim/results/searchlight/sl_wta_combined_vs_behavioral_sub3.pdf
+data/interim/results/searchlight/sl_wta_combined_vs_behavioral_sub4.pdf
+data/raw/fmri/anatomy.zip
+data/raw/fmri/fmri_betas.zip
+data/raw/fmri/freesurfer.zip
+
+# Local environment / editor files
+.venv/
+.idea/
+.claude/
+__pycache__/
+.DS_Store
+
+# Internal working notes (local only)
+docs/paper_figures.md
+
+# fMRI data: download from OSF (McMahon, Isik & Bonner, 2025) with
+# analysis/neural/download_fmri.py. The reliability masks are not on OSF, so they stay in git.
+data/raw/fmri/*
+!data/raw/fmri/reliability_mask/
+data/utils/metadata.csv
